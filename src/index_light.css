@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+/* base styles */
+* {
+    margin: 0;
+    font-family: "SUSE", sans-serif;
+    color: #333;
+    /* Dark text color for light background */
+    background-color: #f7f7f7;
+    /* Light background color */
+}
+
+body {
+    background-color: #f7f7f7;
+    /* Set body background to light color */
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    /* Lighter border color */
+    background-color: #ffffff;
+    /* Navbar background color */
+}
+
+.navbar h1 {
+    color: #4a90e2;
+    /* Blue color for consistency */
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: #333;
+    /* Dark text color */
+}
+
+.navbar a:hover {
+    color: #4a90e2;
+    /* Blue on hover */
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* Content background color */
+    border-radius: 8px;
+    /* Adding some rounding for better aesthetics */
+    border: 1px solid #ddd;
+    /* Light border */
+}
+
+/* blog previews / list */
+.blog-preview {
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #eee;
+    /* Lighter border color */
+    background-color: #ffffff;
+    /* Background color for blog previews */
+    border-radius: 8px;
+    /* Adding some rounding for better aesthetics */
+}
+
+.blog-preview:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow effect */
+}
+
+.blog-preview h2 {
+    font-size: 20px;
+    color: #4a90e2;
+    /* Blue color */
+    margin-bottom: 8px;
+}
+
+.blog-preview a {
+    text-decoration: none;
+    color: #333;
+    /* Dark text color */
+}
+
+/* blog details page */
+.blog-details h2 {
+    font-size: 20px;
+    color: #4a90e2;
+    /* Blue color */
+    margin-bottom: 10px;
+}
+
+.blog-details div {
+    margin: 20px 0;
+    color: #333;
+    /* Dark text color */
+}
+
+.blog-details button {
+    background: #4a90e2;
+    /* Blue color */
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    /* Form background color */
+    padding: 20px;
+    border-radius: 8px;
+    /* Adding some rounding for better aesthetics */
+    border: 1px solid #ddd;
+    /* Light border */
+}
+
+.create label {
+    text-align: left;
+    display: block;
+    color: #333;
+    /* Dark text color */
+}
+
+.create h2 {
+    font-size: 20px;
+    color: #4a90e2;
+    /* Blue color */
+    margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    /* Lighter border color */
+    background-color: #ffffff;
+    /* Light input field background */
+    color: #333;
+    /* Dark text color */
+    box-sizing: border-box;
+    display: block;
+}
+
+.create button {
+    background: #4a90e2;
+    /* Blue color */
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}

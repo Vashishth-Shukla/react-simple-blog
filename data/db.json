@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Blog 1",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati hic fugiat. Praesentium quis doloremque accusamus cumque adipisci veritatis. Eius quia harum natus vitae quisquam inventore officia dolores officiis consequuntur!",
+      "author": "auth1",
+      "id": "1"
+    },
+    {
+      "title": "Blog 2",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati hic fugiat. Praesentium quis doloremque accusamus cumque adipisci veritatis. Eius quia harum natus vitae quisquam inventore officia dolores officiis consequuntur!",
+      "author": "auth2",
+      "id": "2"
+    },
+    {
+      "id": "daad",
+      "title": "abc",
+      "body": "defg",
+      "author": "hello"
+    },
+    {
+      "id": "e313",
+      "title": "abc",
+      "body": "abc",
+      "author": "abc"
+    }
+  ]
+}
